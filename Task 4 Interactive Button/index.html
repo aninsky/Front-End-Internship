@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4: Interactive Button</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>   
+            <h1>Types of Pasta</h1>
+            <div class="pics">
+                <h3>Fettuccine</h3>
+                <img src="Fettuccine.jpg" alt="" style="width: 50%; ">
+                <p>
+                    Fettuccine is a type of pasta that is long, flat, and ribbon-shaped. It's a key ingredient in many Italian dishes, including fettuccine alfredo and fettuccine carbonara.
+                </p>
+
+                <h3>Spaghetti</h3>
+                <img src="e1_r1_spaghetti_jpg.jpg" alt="Spaghetti" style="width: 50%;">
+                <p>
+                    Spaghetti is a type of pasta characterized by its long, thin, cylindrical shape, derived from the Italian word "spaghetto" meaning "little string" or "twine".
+                </p>
+                
+                <h3>Rotini</h3>
+                <img src="rotini.jpg" alt="Rotini" style="width: 50%;">
+                <p>
+                    Rotini pasta is a short, corkscrew-shaped pasta, meaning "twists" or "small wheels" in Italian, known for its ability to hold sauces well due to its spiral shape.
+                </p>
+
+                <h3>Rigatoni</h3>
+                <img src="Rigatoni.jpg" alt="" style="width: 50%;">
+                <p>Rigatoni is a short, wide, tubular pasta shape with ridges on the outside, making it excellent for holding sauces and larger ingredients, 
+                and is a popular choice in central and southern Italian cuisine.</p>
+
+                <h3>Papperdelle</h3>
+                <img src="pappardelle.jpg" alt="" style="width: 50%;">
+                <p>Pappardelle are large, very broad, flat pasta, similar to wide fettuccine, originating from the Tuscany region of Italy. 
+                    The fresh types are two to three centimetres wide and may have fluted edges, while dried egg pappardelle have straight sides.</p>
+    
+
+                <button onclick="myFunction()">Click here</button>
+
+                <h2 id="btn"></h2>
+
+                <script>
+                    let result=document.getElementById("btn");
+
+                    function changeColor(color){
+                        document.body.style.background= color;
+                    }
+                    function myFunction(){
+                        changeColor('pink');
+                    }
+                </script>
+        </div>
+</body>
+</html>
